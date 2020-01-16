@@ -4,7 +4,7 @@
     - dev
 ---
 server: 
-  prot: 8201
+  port: 8201
 spring:
   prifiles: dev
   application: 
@@ -16,7 +16,7 @@ eureka:
       defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server: 
-  prot: 8202  #不同点
+  port: 8202  #不同点
 spring:
   prifiles: test  #不同点
   application: 
