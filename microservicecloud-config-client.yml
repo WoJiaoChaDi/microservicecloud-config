@@ -6,7 +6,7 @@
 server: 
   port: 8201
 spring:
-  prifiles: dev
+  profiles: dev
   application: 
     name: microservicecloud-config-client
 
@@ -18,7 +18,7 @@ eureka:
 server: 
   port: 8202  #不同点
 spring:
-  prifiles: test  #不同点
+  profiles: test  #不同点
   application: 
     name: microservicecloud-config-client
 
